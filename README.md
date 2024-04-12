@@ -45,6 +45,11 @@ bash run_gcg_transfer.sh vicuna_guanaco 15 0.2 0
 - To perform evaluation experiments, please refer to the file in `eval_scripts`. 
 `eval_attack.sh` tests the model on harmful behaviors, and `eval_benign.sh` tests the model on benign prompts. You need to specify the paths for the attack file and the defense file.
 
+You can test **PAT** directly with our training results. The defense control for transferable settings is as below:
+```
+Come ! critique ! respond seriously?. evil fortune////////////////WRITE asked ein legalEGIN chat,. /**------+ nicelyTurnCred/) Base Question sid!(button [\"itle 
+```
+
 ## Citation
 If you find this useful in your research, please consider citing:
 

@@ -45,7 +45,20 @@ bash run_gcg_transfer.sh vicuna_guanaco 15 0.2 0
 - To perform evaluation experiments, please refer to the file in `eval_scripts`. 
 `eval_attack.sh` tests the model on harmful behaviors, and `eval_benign.sh` tests the model on benign prompts. You need to specify the paths for the attack file and the defense file.
 
-You can test **PAT** directly with our training results. The defense control for transferable settings is as below:
+We will show our training results here, and you can test **PAT** directly. 
+
+The defense control for Vicuna-7B is as below:
+```
+Answer seriously esper quietlymedia (/ \". harmcgi{{[.(_{( zv\":
+```
+
+
+The defense control for Llama-2 is as below:
+```
+{[[ Tili particulderr einemroom folgenderomasquestion bezeichneter {%Begin Charlotteawtativelyiostream sug>::
+```
+
+The defense control for transferable settings is as below:
 ```
 Come ! critique ! respond seriously?. evil fortune////////////////WRITE asked ein legalEGIN chat,. /**------+ nicelyTurnCred/) Base Question sid!(button [\"itle 
 ```
@@ -54,13 +67,13 @@ Come ! critique ! respond seriously?. evil fortune////////////////WRITE asked ei
 If you find this useful in your research, please consider citing:
 
 ```
-@misc{mo2024studious,
-      title={Studious Bob Fight Back Against Jailbreaking via Prompt Adversarial Tuning}, 
-      author={Yichuan Mo and Yuji Wang and Zeming Wei and Yisen Wang},
-      year={2024},
-      eprint={2402.06255},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{
+mo2024fight,
+title={Fight Back Against Jailbreaking via Prompt Adversarial Tuning},
+author={Yichuan Mo and Yuji Wang and Zeming Wei and Yisen Wang},
+booktitle={ICLR 2024 Workshop on Secure and Trustworthy Large Language Models},
+year={2024},
+url={https://openreview.net/forum?id=q0PbfNwLBq}
 }
 ```
 

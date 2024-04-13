@@ -45,7 +45,7 @@ bash run_gcg_transfer.sh vicuna_guanaco 15 0.2 0
 - To perform evaluation experiments, please refer to the file in `eval_scripts`. 
 `eval_attack.sh` tests the model on harmful behaviors, and `eval_benign.sh` tests the model on benign prompts. You need to specify the paths for the attack file and the defense file.
 
-We will show our training results here, and you can test **PAT** directly. 
+We will show our training results here, and you can test **PAT** directly with the provided defense controls. 
 
 The defense control for Vicuna-7B is as below:
 ```

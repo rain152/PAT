@@ -4,7 +4,7 @@
 
 This is the official repository for "[Fight Back Against Jailbreaking via Prompt Adversarial Tuning](https://https://arxiv.org/abs/2402.06255)" by [Yichuan Mo](https://scholar.google.com/citations?user=xvSYG1gAAAAJ&hl=zh-CN), [Yuji Wang](https://scholar.google.com/citations?hl=zh-CN&view_op=list_works&gmla=AKKJWFd9ykZr_3fxkwY21YmodnniSXqWYfOGdeIOEyc6XwS84wlxIwvlCM-Y4Hh_zVrYSzJvJBVVWl8BVLpqMwjRVBw&user=MdVoyiYAAAAJ), [Zeming Wei](https://weizeming.github.io/), and [Yisen Wang](https://yisenwang.github.io/). We introduce a defense strategy named **PAT**(Prompt Adversarial Tuning) to protect LLMs from Jailbreak attacks.
 
-![PAT](https://res.cloudinary.com/dnjed4yao/image/upload/v1712416846/iwdgsjznqqgntfoytkc2.jpg)
+![PAT](https://res.cloudinary.com/dcsen3in6/image/upload/v1730172493/PAT_wbsx99.png)
 
 ## Table of Contents
 
@@ -71,9 +71,8 @@ If you find this useful in your research, please consider citing:
 mo2024fight,
 title={Fight Back Against Jailbreaking via Prompt Adversarial Tuning},
 author={Yichuan Mo and Yuji Wang and Zeming Wei and Yisen Wang},
-booktitle={ICLR 2024 Workshop on Secure and Trustworthy Large Language Models},
-year={2024},
-url={https://openreview.net/forum?id=q0PbfNwLBq}
+booktitle={NeurIPS},
+year={2024}
 }
 ```
 
